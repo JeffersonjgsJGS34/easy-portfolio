@@ -58,4 +58,27 @@ footer p {
 nav a:hover{
     color :#5BBE42
 }
+
+@media screen and (max-width: 798px){
+    header img{
+        height: 150px;
+        width: 140px;
+    }
+    footer img{
+        height:35px;
+        width: 35px;
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    footer a{
+        text-align: center;
+        margin: 8px;
+    }
+
+    footer p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
      
